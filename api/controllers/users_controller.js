@@ -7,7 +7,7 @@ const Balance = require('../models/balance_model');
 
 //AUTHENTICATION REQUIREMENTS
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt-nodejs');
 
 //METHODS DECLARATION
 
